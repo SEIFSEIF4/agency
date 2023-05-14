@@ -19,7 +19,6 @@ window.onload = function () {
     user.start();
     let video = new CountUp("video-count", 0, 30, 0, 3);
     video.start();
-    FullYear();
 };
 
     document.getElementById("fullYear").innerHTML = new Date().getFullYear();

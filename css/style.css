@@ -58,8 +58,12 @@ nav.navbar.noTransparent button.navbar-toggler {
     margin-top: 0.5rem !important;
 }
 
+.row {
+    --bs-gutter-x: 0;
+}
+
 header {
-    background-image:url(../images/bg.jpg); 
+    background-image: url(../images/bg.jpg);
     background-color: white;
     background-repeat: no-repeat;
     background-position: center;
@@ -125,7 +129,7 @@ section.services h2 {
 
 section.services .card {
     height: 20.625rem;
-    margin-bottom: 20px;
+    margin: 10px;
     padding: 50px;
     transition: all 1s ease-in-out 0s;
     overflow: hidden;
@@ -140,7 +144,7 @@ section.services .card .services-images {
 }
 
 section.services .card .services-text h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: rgb(7, 12, 12);
     margin-bottom: 1.5625rem;
 }
@@ -417,7 +421,8 @@ footer.footer .top-footer .about-us ul a {
 }
 
 footer.footer .top-footer .about-us ul a:hover,
-footer.footer .top-footer ul.contact-list li:hover,#fullYear{
+footer.footer .top-footer ul.contact-list li:hover,
+#fullYear {
     color: var(--main-color);
 }
 
